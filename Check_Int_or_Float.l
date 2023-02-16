@@ -9,7 +9,7 @@ DIGIT [0-9]
 %%
 
 int yywrap(){return 1;}
-
+// yywrap(){}
 int main()
 {
     printf("Enter the number : ");
